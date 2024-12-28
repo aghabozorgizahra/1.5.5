@@ -1,0 +1,57 @@
+video.bg-video {
+    z-index: 0;
+  }
+
+  @font-face {
+
+    font-family: taha;
+    src: url(../font/UthmanicHafs1-Ex1-Ver12.otf);
+  }
+
+  @font-face {
+
+    font-family: vazir;
+    src: url(../font/Vazir.ttf);
+  }
+
+  h2 {
+    font-family: taha;
+    line-height: 1.5;
+  }
+
+  p {
+    font-family: vazir;
+  }
+
+  cite {
+    font-family: vazir;
+  }
+
+  
+
+  #pauseButton {
+    display: none;
+  }
+
+  select {
+    width: 4vw;
+    background-position-x :left .75rem !important; 
+  }
+
+  @media only screen and (max-width: 768px) {
+ .glyphicon{
+  font-size: 5rem;
+
+ }
+.button-nav{
+  font-size: 2.5rem;
+
+}
+  }
+  
+  @media only screen and (min-width: 768px) {
+  .glyphicon{
+    font-size: 3rem;
+  }
+
+  } 
